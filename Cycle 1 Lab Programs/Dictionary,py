@@ -1,0 +1,41 @@
+Dict = {}
+print("Empty Dictionary: ")
+print(Dict)
+
+# Creating a Dictionary # with Integer Keys
+Dict = {1: 'Honda', 2: 'BMW', 3: 'Morris Garages'}
+print("\nDictionary with the use of Integer Keys: ")
+print(Dict)
+
+# Creating a Dictionary # with Mixed keys
+Dict = {'Name': 'Cars', 1: [10, 40, 20]}
+print("\nDictionary with the use of Mixed Keys: ")
+print(Dict)
+
+# Creating a Dictionary # with dict() method
+Dict = dict({1: 'Honda', 2: 'BMW', 3: 'Morris Garages'})
+print("\nDictionary with the use of dict(): ")
+print(Dict)
+
+# Creating a Dictionary
+# with each item as a Pair
+Dict = dict([(1, 'Honda'), (2, 'BMW'), (3, 'Morris Garrages')])
+print("\nDictionary with each item as a pair: ")
+print(Dict)
+
+'''Output
+Empty Dictionary: 
+{}
+
+Dictionary with the use of Integer Keys: 
+{1: 'Honda', 2: 'BMW', 3: 'Morris Garages'}
+
+Dictionary with the use of Mixed Keys: 
+{'Name': 'Cars', 1: [10, 40, 20]}
+
+Dictionary with the use of dict(): 
+{1: 'Honda', 2: 'BMW', 3: 'Morris Garages'}
+
+Dictionary with each item as a pair: 
+{1: 'Honda', 2: 'BMW', 3: 'Morris Garrages'}
+'''
